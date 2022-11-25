@@ -15,23 +15,23 @@
 
     **NOTE: You are required to complete ALL the challenges.**
 
-### Challenge 1 - Student Grade Generator (Toy Problem)
+### A. Challenge 1 - Student Grade Generator (Toy Problem)
 Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
 >    *A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.*
 
-### Challenge 2 - Speed Detector (Toy Problem)
+### B. Challenge 2 - Speed Detector (Toy Problem)
 Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 >    *For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.*
 
-### Challenge 3 - Net Salary Calculator (Toy Problem)
+### C. Challenge 3 - Net Salary Calculator (Toy Problem)
 Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 >    *NB: Use KRA, NHIF, and NSSF values provided in the links below.*
 >>    *- https://www.aren.co.ke/payroll/taxrates.htm*
 >>    *- https://www.aren.co.ke/payroll/taxrates.htm*
 >>    *- www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye*
     
-### Challenge 4 - Extra Practice Questions
-#### Challenge 4a - (BubbleSort)
+### D. Challenge 4 - Extra Practice Questions
+#### I. Challenge 4a - (BubbleSort)
 1. Write a function that takes an array of numbers as input. It should output an array of those same numbers sorted from lowest to highest.
 
 >*sample input = [5,6,1,3,4,2]*
@@ -41,7 +41,7 @@ Write a program whose major task is to calculate an individual’s Net Salary by
 1. Loops 
 2. Array Methods 
 
-#### Challenge 4b - (Loops)
+#### II. Challenge 4b - (Loops)
 2. Staircase problem 
 Create a function that takes an integer and console logs a step shaped stair with the integer levels using the # character 
 
@@ -56,7 +56,7 @@ Create a function that takes an integer and console logs a step shaped stair wit
 2. Nested Loops
 3. Conditional statements
 
-#### Challenge 4c - (Objects)
+#### III. Challenge 4c - (Objects)
 3. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.
 Volume of a cylinder : 
 >    *V = πr2h where r is the radius and h is the height of the cylinder.*
