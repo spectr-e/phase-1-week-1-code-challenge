@@ -45,15 +45,12 @@ Write a program whose major task is to calculate an individual’s Net Salary by
 2. Staircase problem 
 Create a function that takes an integer and console logs a step shaped stair with the integer levels using the # character 
 
->*e.g steps(2)  #*
-
->              *##*
-
->    *steps(3)  #*
-
->              *##*
-
->              *###*
+*e.g*
+*steps(2)   #*
+            *##*
+*steps(3)   #*
+            *##*
+            *###*
 
 **Research Areas**
 1. Array methods 
