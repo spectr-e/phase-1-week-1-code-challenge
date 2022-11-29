@@ -46,11 +46,8 @@ const detectSpeed = (speed) => {
 //Challenge (3) Three - Net Salary Calculator
 const netSalary = (basic, benefits) => {
   let taxablePay = basic - benefits;
-  let nssf = 200;
+  
   let nhif;
-  let paye;
-  let totalDeductions;
-
   if (taxablePay < 24001) {
     return taxablePay;
   } else {
@@ -89,7 +86,8 @@ const netSalary = (basic, benefits) => {
     } else {
       nhif = 150;
     }
-
+    
+    let paye;
     if (taxablePay > 32333) {
       paye = 24000 * 0.1 + 8333 * 0.25 + (taxablePay - 32333) * 0.3;
     } else if (taxablePay > 24000) {
@@ -97,6 +95,9 @@ const netSalary = (basic, benefits) => {
     } else if (taxablePay > 23999) {
       paye = 24000 * 0.1;
     }
+    
+    let nssf = 200;
+    let totalDeductions;
     totalDeductions = paye - (nhif + nssf);
     return taxablePay - totalDeductions;
   }
