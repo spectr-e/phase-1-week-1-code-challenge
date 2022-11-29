@@ -4,22 +4,29 @@
 // C -  49 to 59,
 // D - 40 to 49,
 // E - less 40.
-const studentGrader = (marks) => {
+let marks = window.prompt('Enter marks!')
+function studentGrader(marks) {
   let grade;
-  if (marks > 100) {
-    return (grade = "Out of Range");
-  } else if (marks > 79) {
-    return (grade = "A");
-  } else if (marks > 59) {
-    return (grade = "B");
-  } else if (marks > 48) {
-    return (grade = "C");
-  } else if (marks > 39) {
-    return (grade = "D");
+  if (marks != null) {
+    if (marks > 100) {
+      return (grade = "Out of Range");
+    } else if (marks > 79) {
+      return (grade = "A");
+    } else if (marks > 59) {
+      return (grade = "B");
+    } else if (marks > 48) {
+      return (grade = "C");
+    } else if (marks > 39) {
+      return (grade = "D");
+    } else {
+      return (grade = "E");
+    }
   } else {
-    return (grade = "E");
+    console.log("No marks entered!");
   }
 };
+
+studentGrader(marks)
 
 //Challenge (2) Two - Speed Detector
 const detectSpeed = (speed) => {
